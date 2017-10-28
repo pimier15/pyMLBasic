@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b2afa5f9-b2cf-4337-b661-09d4352d0325</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>3 SimpleClassifier\perceptron_iris.py</StartupFile>
+    <StartupFile>3 SimpleClassifier\DecisionTree_Study.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,28 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="3 SimpleClassifier\DecisionTree_Study.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="3 SimpleClassifier\LogisticRegression.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="3 SimpleClassifier\LogisticRegresion_Study.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="3 SimpleClassifier\perceptron_iris.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="3 SimpleClassifier\Regularization.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="3 SimpleClassifier\SVM.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\LoadIris.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\Plot.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Common\__init__.py">
@@ -31,7 +52,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="2-2Adaline\" />
-    <Folder Include="3 SimpleClassifier\NewFolder1\" />
     <Folder Include="Common\" />
     <Folder Include="3 SimpleClassifier\" />
   </ItemGroup>

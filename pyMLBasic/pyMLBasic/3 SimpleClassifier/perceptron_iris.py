@@ -19,6 +19,9 @@ sc.fit(xTrain) # calc labmda(mean) and sigma(std) along each feature
 xTrainStd = sc.transform(xTrain)
 xTestStd = sc.transform(xTest)
 
+############ Data Load Complete ##########
+
+
 model = Perceptron( n_iter = 40  , eta0 = 0.1  ,random_state = 0 )
 model.fit(xTrainStd , yTrain) # use SGD optimization and MSE loss
 
