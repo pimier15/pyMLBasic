@@ -1,12 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b2afa5f9-b2cf-4337-b661-09d4352d0325</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>3 SimpleClassifier\DecisionTree.py</StartupFile>
-    <SearchPath>
-    </SearchPath>
+    <StartupFile>3 SimpleClassifier\SVM.py</StartupFile>
+    <SearchPath>Common\;datasets\</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>pyMLBasic</Name>
@@ -25,6 +25,7 @@
     <Compile Include="3 SimpleClassifier\DecisionTree_Study.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="3 SimpleClassifier\LoadIris.py" />
     <Compile Include="3 SimpleClassifier\LogisticRegression.py">
       <SubType>Code</SubType>
     </Compile>
@@ -34,6 +35,7 @@
     <Compile Include="3 SimpleClassifier\perceptron_iris.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="3 SimpleClassifier\Plot.py" />
     <Compile Include="3 SimpleClassifier\RandomForest.py">
       <SubType>Code</SubType>
     </Compile>

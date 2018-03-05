@@ -1,6 +1,6 @@
 import numpy as np
-from Common.LoadIris import LoadIris
-from Common.Plot import plot_decision_resion
+from LoadIris import LoadIris
+from Plot import plot_decision_resion
 
 from sklearn.svm import SVC
 
